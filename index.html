@@ -26,11 +26,11 @@
     <div id="interactive" class="viewport"></div>
     <div id="debug" class="detection"></div>
     <button type="button" onclick="CSharp.ShowToast()">Call C#1</button>
-    <button type="button" onclick="someEvent()">Call Alert</button>
+    <button type="button" onclick="someEvent()">Set Item</button>
 </section>
 <script>
     function someEvent(id) {
-        alert(id);
+        localStorage.setItem( "name", "qqq");
     }
 </script>
 <script src="vendor/jquery-1.9.0.min.js" type="text/javascript"></script>
