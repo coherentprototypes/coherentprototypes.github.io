@@ -1,3 +1,3 @@
 # coherentprototypes.github.io
 
-coherentprototypes.github.io/app
+www.coherentprototypes.github.io/app
